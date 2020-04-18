@@ -1,0 +1,2 @@
+#!/bin/bash
+ffplay -f dshow -video_size 1280x720 -rtbufsize 702000k -framerate 60 -i video="$1"
