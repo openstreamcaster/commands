@@ -1,2 +1,3 @@
 #!/bin/bash
-ffplay -f dshow -video_size 1280x720 -rtbufsize 702000k -framerate 60 -i video="$1"
+# https://trac.ffmpeg.org/wiki/DirectShow
+ffplay -f dshow -i video="$1"

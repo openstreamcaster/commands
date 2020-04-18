@@ -1,0 +1,2 @@
+#!/bin/bash
+osc-show-cam "Logitech HD Pro Webcam C910"
